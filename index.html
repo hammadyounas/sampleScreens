@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berlin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <!-- login section-->
+<section id="login-section" class="section-with-background">
+    <div class="leftSide">
+        <p>Log In To My Sustainable Berlin To Discover Eco-Friendly Hotspots</p>
+    </div>
+    <div class="login-container">
+        <i class="fa-solid fa-user"></i>
+        <h2>USER LOGIN  </h2>
+        <form>
+            <!-- <label for="username">Username *</label> -->
+            <input type="text" id="username" placeholder="Username" required >
+            <!-- <label for="password">Password *</label> -->
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</section>
+
+
+    <!-- main section-->
+    <section id="main-screen">
+        <div class="image">
+            <img src="./Images/img1.jpg"/>
+        </div>
+        <div class="container">
+            <h1>WELCOME TO BERLIN</h1>
+            <ul id="location-list">
+                <li>
+                    <img src="./Images/location1.jpg"/>
+                    <p>Berliner Freiheit Eventlocation</p></li>
+                <li>
+                    <img src="./Images/location2.jpg"/>
+                    <p>Expo Quartier Berlin</p>
+                </li>
+                <li>
+                    <img src="./Images/location3.jpg"/>
+                    <p>TIPI AM KANZLERAMT</p>
+                    </li>
+            </ul>
+    
+            <div class="buttons">
+                <button id="add-btn">Add Location</button>
+                <button id="logout-btn">Logout</button>
+            </div>
+        </div>
+
+        <footer>
+            <p>Legal Notice</p>
+            <p>Data Protection Declaration</p>
+        </footer>
+        
+        
+    </section>
+
+    <!-- Add location section -->
+<section id="add-location">
+    <h2>Add Location</h2>
+    <form class="location-form">
+        <!-- <label for="location-name">Name/Title *</label> -->
+        <input type="text" id="location-name" placeholder="Name" required>
+        <!-- <label for="description">Description *</label> -->
+        <textarea id="description" placeholder="Description" required></textarea>
+        <!-- <label for="street">Street & House No. *</label> -->
+        <input type="text" id="street" placeholder="House No." required>
+        <!-- <label for="zip">ZIP *</label> -->
+        <input type="text" id="zip" placeholder="ZIP" required>
+        <!-- <label for="city">City *</label> -->
+        <input type="text" id="city" placeholder="City" required>
+        <!-- <label for="category">Category *</label> -->
+        <select id="category" required>
+            <option value="">Select Category</option>
+            <option value="OBike/Cyclists">OBike/Cyclists</option>
+            <option value="Temporary">Temporary</option>
+            <option value="Pedestrians">Pedestrians</option>
+            <option value="Public Transportation">Public Transportation</option>
+            <option value="Cars/Car Infrastructure">Cars/Car Infrastructure</option>
+            <option value="Industry">Industry</option>
+            <option value="Parks & Rec.">Parks & Rec.</option>
+        </select>
+        <!-- <label for="image-upload">Upload Image</label> -->
+        <input type="file" id="image-upload" placeholder="Upload Image">
+        <!-- <input type="checkbox" id="temporary" name="temporary"> -->
+        <!-- <label for="temporary">Temporary</label> -->
+        <div class="buttons" id="location-buttons"> 
+            <button type="submit" id="save-btn">Submit</button>
+            <button type="button" id="cancel-btn">Cancel</button>
+        </div>
+    </form>
+</section>
+
+
+    <!-- update and delete location -->
+    <section>
+
+    </section>
+</body>
+</html>
