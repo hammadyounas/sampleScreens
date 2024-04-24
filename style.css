@@ -176,210 +176,273 @@ footer p {
 }
 
 /* add location */
-#add-location{
-    background-image: url("./Images/img5.jpg"); /* Replace 'background.jpg' with your image file */
-    background-size: cover;
-    background-position: center;
-    margin-top: 200px;
-    text-align: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #1a1a1a;
+#add-location {
+  background-image: url("./Images/img5.jpg"); /* Replace 'background.jpg' with your image file */
+  background-size: cover;
+  background-position: center;
+  margin-top: 200px;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
 }
 
-#add-location h2{
-    color: #21ab70;
-    font-size:3rem;
+#add-location h2 {
+  color: #21ab70;
+  font-size: 3rem;
 }
 
-
-.location-form{
-    width:40%;
-    color: #21ab70
+.location-form {
+  width: 40%;
+  color: #21ab70;
 }
 
-#description{
-    padding: 12px 10px 12px 10px;
-    margin-bottom: 16px;
-    width: calc(100% - 30px); /* Calculate width with padding */
-    border-radius: 10px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    border: 2px solid #21ab70;
-    height: 10vh;
+#description {
+  padding: 12px 10px 12px 10px;
+  margin-bottom: 16px;
+  width: calc(100% - 30px); /* Calculate width with padding */
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: 2px solid #21ab70;
+  height: 10vh;
 }
 
-#category{
-    padding: 12px 10px 12px 10px;
-    margin-bottom: 16px;
-    width: calc(100% - 10px); /* Calculate width with padding */
-    border-radius: 10px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    border: 2px solid #21ab70;
+#category {
+  padding: 12px 10px 12px 10px;
+  margin-bottom: 16px;
+  width: calc(100% - 10px); /* Calculate width with padding */
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: 2px solid #21ab70;
 }
 
-#image-upload{
-    padding: 10px 10px 10px 10px;
-    margin-bottom: 16px;
-    width: calc(100% - 30px); /* Calculate width with padding */
-    border-radius: 10px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    border: 2px solid #21ab70;
+#image-upload {
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 16px;
+  width: calc(100% - 30px); /* Calculate width with padding */
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: 2px solid #21ab70;
 }
 
-#location-buttons{
-    width: 99%;
-    justify-content: space-between;
+#location-buttons {
+  width: 99%;
+  justify-content: space-between;
 }
 
-#save-btn{
-    margin-top: 10px;
-    background-color: #21ab70;
-    width: 45%;
+#save-btn {
+  margin-top: 10px;
+  background-color: #21ab70;
+  width: 45%;
 }
-#save-btn:hover{
-    border: 2px solid #21ab70;
-    background-color: transparent;
-}
-
-#cancel-btn{
-    margin-top: 10px;
-    background-color:red;
-    width: 45%;
+#save-btn:hover {
+  border: 2px solid #21ab70;
+  background-color: transparent;
 }
 
-#cancel-btn:hover{
-    border: 2px solid red;
-    background-color: transparent;
+#cancel-btn {
+  margin-top: 10px;
+  background-color: red;
+  width: 45%;
+}
+
+#cancel-btn:hover {
+  border: 2px solid red;
+  background-color: transparent;
 }
 /* Responsive adjustments */
-@media screen and (max-width:1025px) {
-    .login-container {
-      padding: 20px;
-      max-width: 60%;
-    }
-  
-    .leftSide {
-      width: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #21ab70;
-      font-size: 1.2rem;
-    }
-  
-    .leftSide p {
-      width: 80%;
-      line-height: 2rem;
-    }
-  
-    .container {
-      width: 100%;
-    }
-
-    .container ul li{
-        padding: 10px;
-    }
-    
-    .container ul li p{
-        font-size: 0.9rem;
-    }
-
-    .container ul li img {
-        width: 200px;
-        height: 150px;
-      }
-
-      #add-location{
-        height:110vh;
-      }
-
-      .location-form{
-        width:60%;
-        color: #21ab70
-    }
-    
+@media screen and (max-width: 1025px) {
+  .login-container {
+    padding: 20px;
+    max-width: 60%;
   }
-  
 
-  @media screen and (max-width: 600px) {
-    #login-section {
-      color: #fff; /* Text color on top of the background */
-      text-align: center;
-      height: 100vh; /* Make it fullscreen */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-    }
-  
-    .login-container {
-      padding: 20px;
-      max-width: 90%;
-    }
-  
-    .leftSide {
-      font-size: 1.2rem;
-      width: 100%;
-    }
-  
-    input[type="text"],
-    input[type="password"] {
-      padding: 10px 10px 10px 10px;
-      font-size: 0.8rem;
-      border-radius: 8px;
-      margin-bottom: 8px;
-    }
-  
-    button {
-      padding: 10px 10px 10px 10px;
-      font-size: 0.8rem;
-      border-radius: 8px;
-    }
-  
-    .login-container h2 {
-      font-size: 1.1rem;
-    }
-  
-    .container {
-      width: 100%;
-    }
-  
-    .container ul {
-      flex-direction:column;
-    }
+  .leftSide {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #21ab70;
+    font-size: 1.2rem;
+  }
 
-    .container ul li img {
-        width:300px;
-        height: 200px;
-      }
-  
-    .container h1{
-      font-size: 1.5rem;
-    }
+  .leftSide p {
+    width: 80%;
+    line-height: 2rem;
+  }
 
-    #add-btn, #logout-btn {
-  margin: 10px;
-  width: 40%;
+  .container {
+    width: 100%;
+  }
+
+  .container ul li {
+    padding: 10px;
+  }
+
+  .container ul li p {
+    font-size: 0.9rem;
+  }
+
+  .container ul li img {
+    width: 200px;
+    height: 150px;
+  }
+
+  #add-location {
+    height: 110vh;
+  }
+
+  .location-form {
+    width: 60%;
+    color: #21ab70;
+  }
 }
 
-#add-location{
+@media screen and (max-width: 600px) {
+  #login-section {
+    color: #fff; /* Text color on top of the background */
+    text-align: center;
+    height: 100vh; /* Make it fullscreen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .login-container {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  .leftSide {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px 10px 10px 10px;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+
+  button {
+    padding: 10px 10px 10px 10px;
+    font-size: 0.8rem;
+    border-radius: 8px;
+  }
+
+  .login-container h2 {
+    font-size: 1.1rem;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .container ul {
+    flex-direction: column;
+  }
+
+  .container ul li img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .container h1 {
+    font-size: 1.5rem;
+  }
+
+  #add-btn,
+  #logout-btn {
+    margin: 10px;
+    width: 40%;
+  }
+
+  #add-location {
     margin-top: 50rem;
-    height:120vh;
+    height: 120vh;
   }
 
-  #add-location h2{
-font-size: 2rem;
+  #add-location h2 {
+    font-size: 2rem;
   }
 
-  .location-form{
-    width:90%;
-    color: #21ab70
+  .location-form {
+    width: 90%;
+    color: #21ab70;
+  }
 }
-    
+
+#update-location {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+}
+#update-location h2 {
+  color: #21ab70;
+  text-align: center;
+  font-size: 3rem;
+}
+.selectedImage {
+  margin: 0px 20px 20px 20px;
+  border-radius: 10px;
+}
+.buttonsDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btn {
+  width: 30%;
+  padding: 15px 40px 15px 40px;
+  background-color: #21ab70;
+}
+
+#update {
+  background-color: #21ab70;
+}
+#update:hover {
+  border: 2px solid #21ab70;
+  background-color: transparent;
+  color: #21ab70;
+}
+#delete {
+  background-color: red;
+}
+#delete:hover {
+  border: 2px solid red;
+
+  background-color: transparent;
+  color: red;
+}
+#cancel {
+  background-color: rgb(168, 168, 0);
+}
+#cancel:hover {
+  border: 2px solid rgb(168, 168, 0);
+
+  background-color: transparent;
+  color: rgb(168, 168, 0);
+}
+
+@media screen and (max-width: 600px) {
+  .btn {
+    padding: 15px 10px 15px 10px;
   }
+  #update-location h2 {
+    font-size: 2rem;
+  }
+}
